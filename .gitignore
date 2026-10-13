@@ -1,0 +1,29 @@
+# Environment & Secret files (CRITICAL: Prevents leaking API keys)
+.env
+.env.*
+
+# Generated Vector Database (Do not upload local indices)
+faiss_store/
+
+# Python Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python Cache & Bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Temporary Files
+.DS_Store
+Thumbs.db
